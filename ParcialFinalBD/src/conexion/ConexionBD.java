@@ -7,14 +7,14 @@ import java.sql.SQLException;
 public class ConexionBD {
 
     private static final String URL = "jdbc:mysql://localhost:3306/eventos_congreso?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "root";  // tu usuario
-    private static final String PASSWORD = "Tupapazzxx123";  // tu contraseña, si tienes
+    private static final String USER = "root";  // mi usuaario
+    private static final String PASSWORD = "Tupapazzxx123";  // mi contraseña
 
     public static Connection conectar() {
         Connection conexion = null;
 
         try {
-            // Cargar el driver de MySQL
+            
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             conexion = DriverManager.getConnection(URL, USER, PASSWORD);
