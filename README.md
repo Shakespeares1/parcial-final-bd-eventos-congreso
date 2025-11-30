@@ -8,14 +8,14 @@ Este repositorio contiene el proyecto correspondiente al examen final de la asig
  Contenido del repositorio
 parcial-final-bd-eventos-congreso/
 │
-├── src/                          → Código fuente Java
-├── lib/                          → mysql-connector-j-9.5.0.jar
-├── nbproject/                    → Archivos de configuración NetBeans
-├── build/                        → Archivos compilados
-├── script/eventos_congreso.sql   → Script SQL exportado
-├── informe/Informe_Final.pdf     → Informe técnico del proyecto
-├── capturas/                     → Evidencias del funcionamiento
-└── README.md                     → Este archivo
+├── src/                         
+├── lib/                         
+├── nbproject/                    
+├── build/                       
+├── script/eventos_congreso.sql   
+├── informe/Informe_Final.pdf     
+├── capturas/                    
+└── README.md                    
 
 Tecnologías utilizadas
 
